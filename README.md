@@ -2,6 +2,9 @@
 ## Unix Command Line
 ### Shell
 > Shell adalah processor makro atau penerjemah command language yang menerjemahkan perintah, yang ditulis oleh pengguna di terminal, ke dalam tindakan sistem yang dijalankan, yang juga dapat secara otomatis dijalankan dalam program yang disebut Shell Scripting.
+### Filesystem
+- Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system
+- Sistem operasi Windows & Unix-like menyusun file dan direktori menggunakan struktur yang bentuknya mirip tree
 ### Command Line Interface (CLI)
 - Command Line Interface (CLI) adalah antarmuka pengguna berbasis teks ( UI ) yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
 
