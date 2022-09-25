@@ -2,6 +2,7 @@
 
 ## Unix Command Line
 
+
 ### Shell
 > Shell adalah processor makro atau penerjemah command language yang menerjemahkan perintah, yang ditulis oleh pengguna di terminal, ke dalam tindakan sistem yang dijalankan, yang juga dapat secara otomatis dijalankan dalam program yang disebut Shell Scripting.
 
@@ -90,7 +91,9 @@
       ```
       ![rm -d command](https://user-images.githubusercontent.com/100120189/192082069-80b469a9-dd61-442f-8eb2-34bb2b46df2c.png)
  
+ 
 ## Git dan GitHub
+
 
 ### Git dan Github tools yang wajib digunakan
     > Git dan GitHub adalah salah satu tool yang sering digunakan dalam proyek pengembangan software. Git dan juga GitHub adalah Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dan GitHub juga git digunakan untuk kolaborasi. Oleh karena itu Git dan Github sangat penting untuk Programmer.
@@ -154,7 +157,9 @@
 4. File yang ada di GitHub sudah selasai di cloning ke local
 <br>![cek file](https://user-images.githubusercontent.com/100120189/192086750-587dcadb-f217-44c6-8e50-3d69a939c724.png)
 
+
 ## HTML
+
 
 ### Peran HTML
 - HTML adalah singkatan dari Hypertext Markup Language.
@@ -315,6 +320,26 @@
   </section>
   ```
 ### Deploy HTML menggunakan Netlify
-1. Daftar Netlify dengan menggunakan akun GitHub
-2. Buat repository GitHub yang dalamnya berisi file HTML yang sudah dibuat tadi
-3. 
+1. Buat repository GitHub yang dalamnya berisi file HTML yang sudah dibuat tadi
+2. Buka app.netlify.com di browser, lalu login dengan akun GitHub (jika belum punya akun daftar terlebih dahulu)
+3. Kemudian pilih "Sites" dan pilih "Import from Git"
+   <br>![image](https://user-images.githubusercontent.com/100120189/192129340-318a1470-907d-4814-a807-b933cd36b878.png)
+4. Pilih GitHub
+   <br>![image](https://user-images.githubusercontent.com/100120189/192129332-06428ca5-ce98-4a0c-b324-3b9bc90855c3.png)
+5. pilih repository yang ingin di deploy
+   <br>![image](https://user-images.githubusercontent.com/100120189/192129328-09611fb3-c9e5-4f06-a687-0bcec4ccc1d3.png)
+6. Pilih branch yang ingin dideploy, kemudian klik Deploy Site
+   <br> ![image](https://user-images.githubusercontent.com/100120189/192129421-39b4afc6-0907-49af-9065-343f05160cc1.png)
+7. File HTML sudah berhasil dideploy
+   <br>![image](https://user-images.githubusercontent.com/100120189/192129478-d463dee1-ee00-4437-a5da-d3b7b4b0eb1e.png)
+
+
+## CSS
+
+
+## Algoritma
+
+
+## Javascript
+
+
