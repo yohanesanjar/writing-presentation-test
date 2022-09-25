@@ -343,11 +343,150 @@
 
 ### Cara menyisipkan CSS ke dalam HTML 
 - Inline Styles
+  <br>Inline styles adalah kita menambahkan CSS pada attribute element HTML.
+  <br>![image](https://user-images.githubusercontent.com/100120189/192135404-6cdb3238-7934-4283-ad01-60da44731569.png)
 - Internal CSS
+  <br>Cara menggunakan internal CSS adalah dengan menambahkan style tag pada head di file HTML.
+  <br>![image](https://user-images.githubusercontent.com/100120189/192135645-69631340-cc2e-4c19-b566-bb2e6603ccea.png)
 - Eksternal CSS
+  <br>Digunakan jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan code CSS di file tersendiri (extension .css) dan terpisah dari file HTML.
+  <br>![image](https://user-images.githubusercontent.com/100120189/192135966-b49b14e2-a575-490a-b50e-cdc53bf9dfa4.png)
 
 ### Sintaks dasar CSS 
-### Styling CSS 
+- Class Name
+  <br>Terdiri dari Selector, Declaration, Property, dan Value
+  ```
+  h1 {
+    color : red;
+  }
+  ```
+  - berdasarkan kode di atas h1 adalah selector points yang ingin diubah
+  - color : red;" adalah declaration
+  - setiap declaration terdapat nama properti dan nilainya "color" sebagai properti "red" sebagai nilainya.
+  
+### Styling CSS
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        div.header{
+            padding-top: 20px;
+        }
+        a#link{
+            font-size: 10pt;
+        }
+        #pemain{
+            padding-top: 10px;
+        }
+        .follow{
+            margin-top: 50px;
+            text-align: center;
+            width: 200px;
+            border: 3px solid #73AD21;
+        }
+        input[type=submit]{
+            background-color: blue;
+            color: darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Elemen Heading dengan attribute id -->
+        <h1 id="satu">Manchester United</h1>
+        <!-- Elemen Image dengan attribute src dan style -->
+        <img src="https://upload.wikimedia.org/wikipedia/id/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png" style="height: 100px;width : 100px" alt="Manchester United">
+        <!-- Elemen Paragraf -->
+        <p>Manchester United merupakan klub sepak bola...</p>
+        <!-- Element Link dengan attribute href -->
+        <a id="link" href="https://google.com">baca lebih lanjut</a>
+    </div>
+    <div id="pemain">
+        <h3>Nama Pemain Manchester United</h3>
+        <table border="1">
+            <tr>
+                <th>NAMA</th>
+                <th>ASAL</th>
+            </tr>
+            <tr>
+                <td>Antony Santos</td>
+                <td>Brazil</td>
+            </tr>
+            <tr>
+                <td>Cristiano Ronaldo</td>
+                <td>Portugal</td>
+            </tr>
+            <tr>
+                <td>Jadon Sancho</td>
+                <td>Inggris</td>
+            </tr>
+        </table>
+    </div>
+    <div class="follow">
+        <h4>Ikuti Kami</h4>
+        <form>
+            <div>
+                <label for="username"></label><br>
+                <input type="text" placeholder="masukkan username" name="username" id="username">
+            </div>
+            <div>
+                <label for="Email"></label><br>
+                <input type="email" placeholder="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="password"></label><br>
+                <input type="password" placeholder="masukkan password" name="password" id="password">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="daftar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+```
+Penjelasan :
+```
+div.header{
+    padding-top: 20px;
+}
+```
+> Pada div dengan class header saya tambahkan padding top dengan ukuran 20px
+```
+a#link{
+  font-size: 10pt;
+}
+```
+> Code di atas untuk merubah ukuran teks di element link
+```
+#pemain{
+  padding-top: 10px;
+}
+```
+> Code di atas untuk merubah padding-top dari selector id pemain.
+```
+.follow{
+  margin-top: 50px;
+  text-align: center;
+  width: 200px;
+  border: 3px solid #73AD21;
+}
+```
+> Code di atas untuk merubah margin-top, posisi teks, lebar, dan juga border dari selector class follow.
+```
+input[type=submit]{
+  background-color: blue;
+  color: darkgoldenrod;
+}
+```
+> Code di atas untuk merubah warna latar belakang dan juga warna teks dari selector input[type=submit]
+
 ### Metode responsive web design menggunakan CSS 
 ### Flexbox
 
