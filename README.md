@@ -337,6 +337,21 @@
 ## CSS
 
 
+### Peran CSS
+- CSS adalah bahasa yang digunakan untuk mendesain halaman website.
+- Dengan CSS, kita bisa mengubah warna, menggunakan font custom, editing text format, mengatur tata letak, dan lainnya.
+
+### Cara menyisipkan CSS ke dalam HTML 
+- Inline Styles
+- Internal CSS
+- Eksternal CSS
+
+### Sintaks dasar CSS 
+### Styling CSS 
+### Metode responsive web design menggunakan CSS 
+### Flexbox
+
+
 ## Algoritma
 
 
