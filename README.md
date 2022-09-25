@@ -144,3 +144,39 @@
 <br>![git clone command](https://user-images.githubusercontent.com/100120189/192086665-a0e07fd9-9101-4a13-9f2c-f9d6322fa504.png)
 4. File yang ada di GitHub sudah selasai di cloning ke local
 <br>![cek file](https://user-images.githubusercontent.com/100120189/192086750-587dcadb-f217-44c6-8e50-3d69a939c724.png)
+
+## HTML
+### Peran HTML
+- HTML adalah singkatan dari Hypertext Markup Language.
+- HTML digunakan untuk menampilkan konten pada browser.
+- HTML bersifat statis. HTML hanya bertugas menampilkan konten yang diminta oleh developer.
+- HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data.
+### Tools pendukung dalam menggunakan HTML
+    <br>Ada 2 tools pendukung dalam mengguna HTML, yaitu
+    <br>1. Browser, contohnya Chrome, Microsoft Edge, Firefox, dan lain sebagainya.
+    <br>2. Code Editor, contohnya Visual Studio Code(VSC).
+### Membuat HTML sederhana 
+- Kita bisa menuliskan HTML tanpa structure dan kita bisa tetap menjalankan nya tetapi untuk menjalankannya dengan baik kita perlu HTML Structure.
+- HTML struktur :
+  - Saat sebuah element berada di dalam element lain, maka disebut child element.
+  - Element yang berada diatas element lain disebut parent element.
+- HTML Anatomy
+  ```
+  <p>ini adalah paragraf</p>
+  ```
+    - code di atas merypakan sebuah elent
+    - p adalah opening tag.
+    - "ini adalah paragraf merupakan" content.
+    - /p adalah closing tag.
+- HTML Element
+  > HTML element didefinisikan dengan opening tag, content, dan closing tag. Contohnya :
+    ```
+    <h1>Ini adalah Heading</h1> <!-- Elemen Heading -->
+    <p>Ini adalah paragraf pertama</p> <!-- Elemen paragraph -->
+    <a href="https://google.com">Google</a> <!-- Element Link -->
+    ```
+  
+Peserta mampu menjalankan HTML secara manual dan menggunakan live server dari VS Code 
+Peserta mampu memahami dan mengimplementasikan tag HTML yang populer 
+Peserta mampu memahami dan mengimplementasikan semantic HTML 
+Peserta dapat mempublish website sampai ke tahap deployment
