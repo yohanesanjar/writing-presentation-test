@@ -241,6 +241,80 @@
      <br>![membuka html menggunakan live srver](https://user-images.githubusercontent.com/100120189/192126211-884cbc92-9086-4832-a552-588e9d8c5c9c.png)
   <br>3. HTML otomatis akan terbuka di default browser dengan HTML akan auto reload. 
 
-Peserta mampu memahami dan mengimplementasikan tag HTML yang populer 
-Peserta mampu memahami dan mengimplementasikan semantic HTML 
-Peserta dapat mempublish website sampai ke tahap deployment
+### Tag HTML yang populer
+- IMG
+  - Tag img digunakan untuk menampilkan gambar.
+  - Tag img bisa menampilkan gambar melalui file lokal komputer kita atau menggunakan link dari internet dengan attribute src.
+  - Bisa menambahkan attribute alt jika gambar tidak berhasil dimunculkan, agar user tahu keterangan gambar itu.
+  - Contoh code img :
+    ```
+    <img src="https://google.com/kopi.png" alt="kopi"> //menggunakan link
+    <img src="picture/kopi.jpg" alt="kopi"> //menggunakan> file lokal
+    ```
+- Video
+  - Tag video digunakan untuk menampilkan video.
+  - Video merupakan double closing tag sehingga kita menaruh konten di antara opening dan closing
+  - Dalam tag video kita bisa menambahkan attribute controls yang berguna untuk kita bisa mengatur videonya di play / pause dan indikator menit.
+  - Contoh code video :
+    ```
+    <video controls>
+      <source src="janji-kamu.mp4" type="video/mp4">
+    </video>
+- Table
+  - Tag table digunakan untuk menampilkan tabel.
+  - Table pada html defaultnya tidak memiliki garis, jika ingin ada garisnya maka perlu attribute border dengan nilainya. 
+  - Berikut contoh code table sederhana :
+    ```
+    <table border="1">
+        <tr>
+            <th>NAMA</th>
+            <th>ASAL</th>
+        </tr>
+        <tr>
+            <td>Budi Sudarsono</td>
+            <td>Pemalang</td>
+        </tr>
+    </table>
+    ```
+ - HTML Form
+   - Digunakan untuk membuat form registrasi atau login.
+   - Berikut contoh code form sederhana :
+     ```
+     <form>
+        <div>
+            <label for="username"></label><br>
+            <input type="text" placeholder="masukkan username" name="username" id="username">
+        </div>
+        <div>
+            <label for="Email"></label><br>
+            <input type="email" placeholder="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password"></label><br>
+            <input type="password" placeholder="masukkan password" name="password" id="password">
+        </div>
+        <div>
+            <input type="submit" value="daftar">
+        </div>
+     </form>
+     ```
+     
+### Semantic HTML
+- Semantic artinya kita menggunakan element html yang sesuai dengan kebutuhan konten.
+- Semantic HTML sangat membantu untuk developer supaya lebih “Easy to read and understand”
+- Kegunaan semantic HTML
+  - Meningkatkan Accessibility
+  - Meningkatkan SEO
+  - Lebih mudah di maintain
+- Contoh penggunaan semantic HTML
+  ```
+  <section>
+    <h1>WWF</h1>
+      <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the
+          environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+  </section>
+  ```
+### Deploy HTML menggunakan Netlify
+1. Daftar Netlify dengan menggunakan akun GitHub
+2. Buat repository GitHub yang dalamnya berisi file HTML yang sudah dibuat tadi
+3. 
