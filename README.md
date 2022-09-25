@@ -1,10 +1,14 @@
 # Writing and Presentation
+
 ## Unix Command Line
+
 ### Shell
 > Shell adalah processor makro atau penerjemah command language yang menerjemahkan perintah, yang ditulis oleh pengguna di terminal, ke dalam tindakan sistem yang dijalankan, yang juga dapat secara otomatis dijalankan dalam program yang disebut Shell Scripting.
+
 ### Filesystem
 - Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system
 - Sistem operasi Windows & Unix-like menyusun file dan direktori menggunakan struktur yang bentuknya mirip tree
+
 ### Command Line Interface (CLI)
 - Command Line Interface (CLI) adalah antarmuka pengguna berbasis teks ( UI ) yang digunakan untuk menjalankan program, mengelola file komputer, dan berinteraksi dengan komputer.
 
@@ -90,6 +94,7 @@
 
 ### Git dan Github tools yang wajib digunakan
     > Git dan GitHub adalah salah satu tool yang sering digunakan dalam proyek pengembangan software. Git dan juga GitHub adalah Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dan GitHub juga git digunakan untuk kolaborasi. Oleh karena itu Git dan Github sangat penting untuk Programmer.
+    
 ### Perbedaan antara Git dan Github
 - Git
   > Git merupakan software berbasis Version Control System (VCS) yang bertugas untuk mencatat perubahan seluruh file atau repository suatu project.
@@ -112,6 +117,7 @@
 <br>5. Menggunakan user management
 <br>6. Menggunakan nama desktop interface “GitHub Desktop”
 <br>7. Pilihan bagi pengguna gratis dan pengguna berbayar
+
 ### Membuat Repository Git
 1. Buat folder di laptop/komputer
 <br>![buat folder](https://user-images.githubusercontent.com/100120189/192084875-5267d4a7-fc2b-4b17-92e0-54d5e06489c4.png)
@@ -119,6 +125,7 @@
 <br>![membuka git bash](https://user-images.githubusercontent.com/100120189/192084918-d1540374-b086-4236-8467-d248cc6a0ee2.png)
 3. ketikan git init. Sekarang folder yang dibuat tadi sudahh menjadi repository
 <br>![git init](https://user-images.githubusercontent.com/100120189/192085032-3023b79a-d206-4800-9695-90c4c8a66f6d.png)
+
 ### Melakukan commit pada Git
 1. Buat satu atau dua file
 <br>![membuat file](https://user-images.githubusercontent.com/100120189/192085394-c691958c-aa18-4b08-9861-712cc4082247.png)
@@ -126,6 +133,7 @@
 <br>![git add .](https://user-images.githubusercontent.com/100120189/192085341-a09f7304-74bc-4a38-bc2f-77f46191ea5f.png)
 3. Kemudian baru ketikkan "git commit -m "(pesan perubahan)" untuk melakukan commit
 <br>![melakukan commit](https://user-images.githubusercontent.com/100120189/192085457-0023f22a-85f2-4f71-93b5-2163fb484d81.png)
+
 ### Mempublish aplikasi ke Github
 1. Membuat repository di github
 <br>![membuat repository](https://user-images.githubusercontent.com/100120189/192085907-f5c21a69-fdc9-4a51-a6ef-721a59416370.png)
@@ -135,6 +143,7 @@
 <br>![git push command](https://user-images.githubusercontent.com/100120189/192086193-9d2c28d5-c54c-4866-af6b-e48d3876e2e6.png)
 4. Seleseai. File sudah ada di Github
 <br>![mengecek file](https://user-images.githubusercontent.com/100120189/192086262-f192b2f9-b6bc-4159-a3be-e9e97108b79d.png) 
+
 ### Melakukan cloning Github ke local
 1. buka repository yang ikin di cloning, kemudian klik code dan salin kode tersebut
 <br>![image](https://user-images.githubusercontent.com/100120189/192086298-04dfd51e-67d1-443f-b773-1b381f00a095.png)
@@ -146,15 +155,18 @@
 <br>![cek file](https://user-images.githubusercontent.com/100120189/192086750-587dcadb-f217-44c6-8e50-3d69a939c724.png)
 
 ## HTML
+
 ### Peran HTML
 - HTML adalah singkatan dari Hypertext Markup Language.
 - HTML digunakan untuk menampilkan konten pada browser.
 - HTML bersifat statis. HTML hanya bertugas menampilkan konten yang diminta oleh developer.
 - HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data.
+
 ### Tools pendukung dalam menggunakan HTML
     <br>Ada 2 tools pendukung dalam mengguna HTML, yaitu
     <br>1. Browser, contohnya Chrome, Microsoft Edge, Firefox, dan lain sebagainya.
     <br>2. Code Editor, contohnya Visual Studio Code(VSC).
+    
 ### Membuat HTML sederhana 
 - Kita bisa menuliskan HTML tanpa structure dan kita bisa tetap menjalankan nya tetapi untuk menjalankannya dengan baik kita perlu HTML Structure.
 - HTML struktur :
@@ -175,8 +187,60 @@
     <p>Ini adalah paragraf pertama</p> <!-- Elemen paragraph -->
     <a href="https://google.com">Google</a> <!-- Element Link -->
     ```
-  
-Peserta mampu menjalankan HTML secara manual dan menggunakan live server dari VS Code 
+- HTML Attributes
+  - Attribute adalah properties dari sebuah HTML Element.
+  - Semua HTML Element memiliki attribute.
+  - Contohnya :
+    ```
+    <h1 id="satu">Ini adalah Heading</h1> <!-- Elemen heading dengan attribute id -->
+    <img src="kopi.jpg">Ini adalah paragraf pertama</p> <!-- Elemen image dengan attribute src -->
+    <a href="https://google.com">Google</a> <!-- Element link dengan attribute href-->
+    ```
+- HTML Comment
+  - Dengan menggunakan HTML Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan.
+  - Comment ini pasti selalu ada dalam bahasa pemrograman apapun.
+  - Comment tidak akan dieksekusi oleh sistem.
+  - Comment hanya untuk dibaca oleh sesama programmer.
+  - Contohnya :
+    ```
+    <!--   Ini adalah comment   -->
+    ```
+- Berikut adalah contoh web sederhana :
+  ```
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+  </head>
+  <body>
+    <!-- Elemen Heading dengan attribute id -->
+    <h1 id="satu">Ini adalah Heading</h1>
+    <!-- Elemen Image dengan attribute src dan style -->
+    <img src="https://upload.wikimedia.org/wikipedia/id/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png" style="height: 40px;width        : 40px">
+    <!-- Element Link dengan attribute href -->
+    <br><a href="https://google.com">Google</a>
+    <!-- Elemen Paragraf -->
+    <p>Ini adalah paragraf pertama</p>
+  </body>
+  </html>
+  ```
+### Menjalankan HTML secara manual dan menggunakan live server dari VS Code
+- Menjalankan HTML secara manual
+  <br>1. Buka visual studio code.
+  <br>2. Buat code HTML, kemudian disimpan.
+  <br>3. klik kanan pada code editornya, kemudian pilih "Open in Default Browser"
+      <br> ![image](https://user-images.githubusercontent.com/100120189/192125930-88b38bb8-8a7f-4063-86cc-5d4d3396f476.png)
+  > Kita bisa juga menjalankan html secara manual dengan cara membuka file html yang sudah di buat dengan mencari lokasi file HTML
+- Menjalankan HTML menggunakan live server
+  <br>1. Klik extension di VSC, cari live server, kemudian install.
+     <br>![install live server](https://user-images.githubusercontent.com/100120189/192126189-c97dca32-c8d6-4742-84bd-7fc9260cf042.png)
+  <br>2. jika sudah berhasil, buka file htmlnya, kemudian klik kanan, dan pilih "Open with Live Server".
+     <br>![membuka html menggunakan live srver](https://user-images.githubusercontent.com/100120189/192126211-884cbc92-9086-4832-a552-588e9d8c5c9c.png)
+  <br>3. HTML otomatis akan terbuka di default browser dengan HTML akan auto reload. 
+
 Peserta mampu memahami dan mengimplementasikan tag HTML yang populer 
 Peserta mampu memahami dan mengimplementasikan semantic HTML 
 Peserta dapat mempublish website sampai ke tahap deployment
