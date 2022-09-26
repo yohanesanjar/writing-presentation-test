@@ -489,9 +489,75 @@ input[type=submit]{
 
 ### Metode responsive web design menggunakan CSS 
 ### Flexbox
+- Flexible Box biasa disebut flexbox merupakan mode layout yang ada di CSS3 dan digunakan untuk mengatur elemen di suatu halaman web.
+- Tujuan dari flexbox yaitu memberikan container kemampuan untuk mengatur panjang, lebar, dan posisi item-item yang berada di dalamnya agar memaksimalkan ruang yang ada.
+- Flexbox memiliki 1 parent/container dan bisa beberapa child/item.
+- Berikut property container flexbox
+  - flex-direction
+    - properti flex-direction digunakan untuk mengatur letak item child
+    - ada 4 value flex-direction, yaitu:
+      - row (default): secara default letak item child membentuk sebuah baris dari kiri ke kanan.
+        <br>![image](https://user-images.githubusercontent.com/100120189/192203178-ed427485-c85b-4488-a725-c237b70dc3f0.png)
+      - row-reverse: letak item child membentuk sebuah baris dari kanan ke kiri
+        <br>![image](https://user-images.githubusercontent.com/100120189/192203237-cf183e8d-195e-4f09-bcdf-603ff32a1f1c.png)
+      - column: letak item child membentuk sebuah baris dari atas ke bawah
+        <br>![image](https://user-images.githubusercontent.com/100120189/192203061-ff7895ab-fe18-4344-a35e-d70ac355a46e.png)
+      - column-reverse: letak item child membentuk sebuah baris dari bawah ke atas
+        <br>![image](https://user-images.githubusercontent.com/100120189/192203115-55e85583-1b27-4625-a337-46cfcac13a9f.png)
+  - flex-wrap
+    - flex secara default akan membuat tata letak item children dalam 1 line saja. flex akan menyesuaikan space yang ada.
+    - namun jika kamu ingin membatasi jumlah item children dalam 1 line lalu item children yang lain akan pindah ke posisi line yang baru, maka kita bisa menggunakan flex-wrap.
+    - properti flex-wrap memiliki 3 value:
+      - no-wrap (default): secara default , flex tidak menggunakan flex-wrap
+        <br>![image](https://user-images.githubusercontent.com/100120189/192209324-44bf240c-cc6d-411f-9baf-15dbd8a42353.png)        
+      - wrap: flex item akan memiliki beberapa line dari atas ke bawah  jika space dalam 1 line sudah full width.
+        <br>![image](https://user-images.githubusercontent.com/100120189/192209092-6a3760b2-7bae-4fb9-ab1b-e24e122becc5.png)        
+      - wrap-reverse: kebalikan dari wrap yaitu lex item akan memiliki beberapa line dari bawah ke atas  jika space dalam 1 line sudah full width
+        <br>![image](https://user-images.githubusercontent.com/100120189/192209422-5a7dc3d2-6174-4ef2-9ab8-e9aea207b516.png)
+  - flex-flow
+    - properti flex-flow digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap bersamaan.
+    - ada 4 value pada flex-flow, yaitu:
+      - row nowrap
+        <br>![image](https://user-images.githubusercontent.com/100120189/192210398-f2135e30-be25-4544-bb88-4298dbf66ea3.png)
+      - column wrap
+        <br>![image](https://user-images.githubusercontent.com/100120189/192211317-86f4fce0-f9bc-4916-aafb-010c6ec0757e.png)
+      - column reverse
+        <br>![image](https://user-images.githubusercontent.com/100120189/192211484-16f50095-8327-4261-b042-7e59e22de1ff.png)
+      - row-reverse wrap-reverse
+        <br>![image](https://user-images.githubusercontent.com/100120189/192211602-83aae116-9b49-450a-b94f-af7a9ae1ada9.png)
+  - Alignment
+    - justify-content, memiliki 6 value, yaitu:
+      - flex-start
+      - flex-end
+      - center
+      - space-between
+      - space-around
+      - space-evenly
+    - align-items, memiliki 5 value
+      - flex-start
+      - flex-end
+      - center
+      - baseline
+      - stretch
+    - align-self, memiliki 5 value yang sama dengan align-items
+      - flex-start
+      - flex-end
+      - center
+      - baseline
+      - stretch
+    - align-content
+      - properti align-content memiliki konsep yang sama seperti justify-content
+      - align-content digunakan untuk mengatur tata letak dan space antar item child secara vertikal atau cross axis.
+      - align-content akan berjalan jika item lebih dari 1 line/baris.
+      - align-content memiliki value yang sama dengan justify-content. bedanya ada 1 tambahan value yaitu stretch.
+  - Flexibility
+    - flex-grow
+    - flex-shrink
+    - flex-basis
 
 
 ## Algoritma
+
 
 
 ## Javascript
