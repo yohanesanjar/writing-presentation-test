@@ -168,9 +168,9 @@
 - HTML bukanlah sebuah bahasa pemrograman, artinya HTML tidak bisa dinamis mengolah data.
 
 ### Tools pendukung dalam menggunakan HTML
-    <br>Ada 2 tools pendukung dalam mengguna HTML, yaitu
-    <br>1. Browser, contohnya Chrome, Microsoft Edge, Firefox, dan lain sebagainya.
-    <br>2. Code Editor, contohnya Visual Studio Code(VSC).
+    Ada 2 tools pendukung dalam mengguna HTML, yaitu
+    1. Browser, contohnya Chrome, Microsoft Edge, Firefox, dan lain sebagainya.
+    2. Code Editor, contohnya Visual Studio Code(VSC).
     
 ### Membuat HTML sederhana 
 - Kita bisa menuliskan HTML tanpa structure dan kita bisa tetap menjalankan nya tetapi untuk menjalankannya dengan baik kita perlu HTML Structure.
@@ -578,7 +578,12 @@ Merupakan langkah – langkah yang dibuat untuk memecahkan suatu masalah. Sebuah
 6. Step 6 : Selesai </br> 
 - Berikut merupakan contoh penerapan algoritma diatas dalam JavaScript 
   ```
-  console.log() // output : 
+  let angka_1 = 2
+  let angka_2 = 3
+
+  sum = angka_1 + angka_2
+
+  console.log(sum)
   ```
     
     
