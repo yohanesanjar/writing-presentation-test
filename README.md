@@ -486,8 +486,7 @@ input[type=submit]{
 }
 ```
 > Code di atas untuk merubah warna latar belakang dan juga warna teks dari selector input[type=submit]
-
-### Metode responsive web design menggunakan CSS 
+ 
 ### Flexbox
 - Flexible Box biasa disebut flexbox merupakan mode layout yang ada di CSS3 dan digunakan untuk mengatur elemen di suatu halaman web.
 - Tujuan dari flexbox yaitu memberikan container kemampuan untuk mengatur panjang, lebar, dan posisi item-item yang berada di dalamnya agar memaksimalkan ruang yang ada.
@@ -559,7 +558,235 @@ input[type=submit]{
 ## Algoritma
 
 
-
+### Pengertian Algoritma
+Merupakan langkah – langkah yang dibuat untuk memecahkan suatu masalah. Sebuah Algoritma dikatakann berkualitas jika memenuhi beberapa syarat, yaitu:
+1. Input dan output harus didefinisikan terlebih dahulu dengan tepat
+2. Setiap step harus benar-benar clear dan tidak ambigu
+3. Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu. Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
+    
+### Kenapa harus tahu algoritma? (Algoritma vs Data Structure?)
+- Programming itu adalah algoritma dan struktur data
+- Data struktur digunakan untuk mengelola/manajemen sebuah data Dan Algoritma yang akan menyelesaikan suatu permasalahan menggunakan data tersebut.
+    
+### Contoh Algoritma sederhana 
+- Membuat algoritma dari kalkulator penambahan 
+1. Step 1: Mulai
+2. Step 2 : Deklarasi variable angka_1, angka_2
+3. Step 3 : Membaca nilai dari variable angka_1 dan angka_2
+4. Step 4 : Panggil dan lakukan penambahan pada variable sum   (sum = angka_1 + angka_2)
+5. Step 5 : Menampilkan hasil sum 
+6. Step 6 : Selesai </br> 
+- Berikut merupakan contoh penerapan algoritma diatas dalam JavaScript 
+  ```
+  console.log() // output : 
+  ```
+    
+    
 ## Javascript
 
 
+### Pengertian JavaScript
+    > Bahasa Pemrograman yang digunakan untuk logic pada sebuah website. Dengan menggunakan JavaScript, dapat membuat website menjadi interaktif dan dinamis.
+
+### Menjalankan JavaScript
+    > Dapat dilakukan melalui browser (Chrome, Mozila Firefox, Microsoft Edge, Opera, dll)
+
+### Tipe Data dalam JavaScript
+Merupakan pengelompokan yang diberikan untuk berbagai macam data dalam yang digunakan dalam programming. Terdapat 6 Tipe data dasar dalam JavaScript, yaitu :
+1. Number -> tipe data yang memuat angka termasuk angka desimal
+2. String -> grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya. Harus diawali dan diakhiri dengan single quotes ‘ … ‘ ataupun double quotes “ … “.
+3. Boolean -> hanya mempunyai 2 nilai (true/false)
+4. Null -> mengartikan bahwa sebuah variable/data tidak memiliki nilai
+5. Undefined -> mengartikan variable/data tidak memiliki nilai
+6. Object -> tipe data object adalah koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya). Tipe data object mempunyai key dan value.</br></br>
+
+### Operator 
+1. Assignment (=)
+   <br>Menyimpan sebuah nilai dalam variable
+   ```
+   let angka = 1;
+   ```
+2. Mathematical Assignment Operator
+   ```
+   let a = 4;
+   a = a+1
+   console.log(a); //output 5
+   ```
+   Dapat disederhanakan menjadi 
+   ```
+   let a = 4;
+   a += 1
+   console.log(a); //output 5
+   ```
+3. Increment dan Decrement 
+   <br>Digunakan untuk menambah atau mengurangi sebuah nilai. Banyak tambah/kurangnya yaitu 1 
+   ```
+   let a = 4;
+   a++;
+   console.log(a); //output 5
+   ```
+   ```
+   let a = 4;
+   a--;
+   console.log(a); //output 3
+   ```
+4. Arithmetic Operator 
+   <br>Merupakan operator yang melibatkan operasi matematika 
+   -	Tambah (+)
+   -	Kuramg (-)
+   -	Perkalian (*)
+   -	Pembagian (/)
+   -	Modulus (%)
+   ```
+   console.log(7 + 3) // output : 10
+   console.log(2 - 1) // output : 1
+   console.log(5 * 2) // output : 10
+   console.log(15 / 3) // output : 5
+   console.log(8 % 2) // output : 0  
+   ```
+5. Comparison 
+   <br>Operator yang membandingkan dua nilai. Hasilnya akan bersifat true atau false. 
+   - Lebih kecil dari : <
+   - Lebih besar dari: >
+   - Lebih kecil atau sama dengan: <=
+   - Lebih besar atau sama dengan: >=
+   - Sama dengan: ===
+   - Tidak sama dengan: !==
+   ```
+   1 < 2 // output : True
+   1 > 2; // output : False
+   "Apple" === "Jeruk" // output : False
+   "Apple" !== "Jeruk" // output : True 
+   ```
+6. Logical Operator 
+   <br>Digunakan untuk sebuah conditional. Akan menghasilkan nilai Boolean (true/false)
+   - AND operator : &&
+     ```
+     console.log(true && true) // output : true 
+     console.log(true && false) // output : false
+     console.log(false && false) // output : false  
+     ```
+   - OR operator: ||
+     ```
+     console.log(true || true) // output : true 
+     console.log(true || false) // output : true
+     console.log(false || false) // output : false   
+     ```
+   - NOT operator: !
+     ```
+     let tahu = true;
+     console.log(!tahu) // output : false
+     ```
+        
+### Control Flow
+1. Kondisional 
+   <br>Merupakan sebuah percabangan dalam suatu kondisi. Cara kerjanya yaitu conditional statement akan mengecek suatu kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut. 
+   - If statement 
+     ```
+     if (true){
+          console.log("pesan ini akan muncul") 
+     }
+     // output : prints "pesan ini akan muncul"
+            
+     if (false){
+          console.log("tidak terjadi apa apa")
+     }
+     ```
+     Contoh IF statement 
+     ``` 
+     let haus = true;
+     if (haus){
+          console.log("minum")
+     }
+     // output : prints "minum"
+     ```
+   - if.. else...
+     ```
+     let haus = false;
+     if (haus){
+          console.log("minum")
+     } else {
+          console.log("ga dulu")
+     }
+     ```
+     Contoh if.. else if...
+     ```
+     let keadaan = "haus"; 
+     if (keadaan == "haus"){
+          console.log("minum dulu dong")
+     } else if (keadaam == "laper"){
+          console.log("makan dulu gih")
+     } else {
+          console.log("tidur aja kali ye")
+     }
+     ```
+   - switch case 
+     <br>switch case digunakan jika kondisi dan percabangan terlalu banyak
+     ``` 
+     let hitung = 2;
+     switch (hitung){
+        case 1 : console.log("hitungan ke - "+ hitung)
+        break;
+        case 2 : console.log("hitungan ke - "+ hitung)
+        break;
+        case 3 : console.log("hitungan ke - "+ hitung)
+        break;
+        case 4 : console.log("hitungan ke - "+ hitung)
+        break;
+        case 5 : console.log("hitungan ke - "+ hitung)
+        break;
+        default : console.log("dah gaada apa2")
+     } // output : hitungan ke - 2
+            ```
+   - Ternary Option 
+     <br>merupakan short-syntax dari if.. else
+     ```
+     let hujan = true;
+     hujan ? console.log("Bawa Payung") : console.log("panas cuy");
+     // output : prints "bawa payung"
+     ```
+2. Looping 
+   <br>Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai.
+   - for loop 
+     ```
+     let a = 1;
+     for (a; a <= 5; a++){
+          console.log(a)
+     } //output : 
+     // 1
+     // 2
+     // 3
+     // 4
+     // 5
+     ```
+   - while 
+     <br>Perulangan ini sama saja dengan while. Tapi while digunakan untuk kondisi dimana kita tidak mengetahui jumlah pasti pengulangan.
+     ``` 
+     let warga = 2;
+     let i;
+     while (i <= jumlah warga){
+          console.log("tampilkan data warga ke - " + warga)
+          i++;
+     }
+     ```
+   - Do While
+     <br>Statement akan dikerjakan terlebih dahulu baru pengecekan kondisi
+     ```
+     let makanan = 5;
+     do {
+          console.log("makan dulu lah, masi ada makanan")
+          makanan--;
+     } while (makanan = 0){
+          console.log("makanan lu dah habis, lu sih makan mulu")
+     }
+     ```
+   - Nested Loop 
+     <br>Membuat perulangan dalam perulangan 
+     ``` 
+     for (let i = 0; i <= 10; i++){
+          for (let j = 1; j <= i; j++){
+                console.log("baris" + i)
+                console.log("kolom" + j)
+          }
+     }
+     ```
