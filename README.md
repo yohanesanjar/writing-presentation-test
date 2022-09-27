@@ -95,8 +95,8 @@
 ## Git dan GitHub
 
 
-### Git dan Github tools yang wajib digunakan
-    > Git dan GitHub adalah salah satu tool yang sering digunakan dalam proyek pengembangan software. Git dan juga GitHub adalah Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dan GitHub juga git digunakan untuk kolaborasi. Oleh karena itu Git dan Github sangat penting untuk Programmer.
+### Git dan Github
+    > Git dan GitHub adalah salah satu tool yang wajib digunakan dalam proyek pengembangan software. Git dan juga GitHub adalah Pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri. Git dan GitHub juga git digunakan untuk kolaborasi. Oleh karena itu Git dan Github sangat penting untuk Programmer.
     
 ### Perbedaan antara Git dan Github
 - Git
